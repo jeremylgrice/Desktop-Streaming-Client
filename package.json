@@ -1,0 +1,16 @@
+{
+  "name": "xbox-electron-streaming-application",
+  "version": "0.1.0",
+  "description": "Application to play Microsoft Xbox gamepass. I am in no way or form associated with the Xbox team or Microsoft, I just wanted a way to stream games on my desktop vs going through the browser each time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron ."
+  },
+  "keywords": [],
+  "author": "Jeremy Grice",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.5"
+  }
+}
